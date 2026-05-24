@@ -1,0 +1,30 @@
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+DevOps.pem
+K3.pem
+*.tfvars
+*.pem
+*.tfstate
+# Keys
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kubernetes raw secrets
+secret.yaml
