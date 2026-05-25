@@ -6,10 +6,6 @@ metadata:
 
 spec:
   replicas: 2
-  template:
-    spec:
-      imagePullSecrets:
-      - name: ecr-secret
   selector:
     matchLabels:
       app: datavault-api
@@ -18,8 +14,10 @@ spec:
     metadata:
       labels:
         app: datavault-api
-
     spec:
+     imagePullSecrets:
+      - name: ecr-secret  
+
       containers:
       - name: datavault-api
 
