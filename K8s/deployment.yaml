@@ -21,7 +21,7 @@ spec:
 
       containers:
       - name: datavault-api
-        image: 867344444463.dkr.ecr.us-east-1.amazonaws.com/k3s-platform-repo:v1
+        image: 867344444463.dkr.ecr.us-east-1.amazonaws.com/k3s-platform-repo:v2
 
         ports:
         - containerPort: 8080
