@@ -66,3 +66,13 @@ readinessProbe:
 | LOG_LEVEL | info | Log level |
 
 In Kubernetes, set these via ConfigMap (APP_ENV, LOG_LEVEL) and Secret (API_KEY).
+
+## Documentation
+## Infrastructure & Deployment Documentation
+
+This project includes infrastructure provisioning, containerization, Kubernetes deployment, GitOps, and CI/CD implementation.
+
+📘 Deployment Guide:
+
+➡️ [Deployment Guide](./DEPLOYMENT.md)
+
