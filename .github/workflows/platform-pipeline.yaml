@@ -42,7 +42,7 @@ jobs:
       - name: Python SAST
         run: |
          pip install bandit
-         bandit -r datavault-api/ --configfile .bandit
+         bandit -r datavault-api/ -s B101
 
       - name: Dependency Scan
         run: |
